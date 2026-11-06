@@ -1,0 +1,688 @@
+{
+  "source": "한국관광콘텐츠랩 관광 콘텐츠 통합 검색 (텍스트·이미지 다운로드, 2026-11-06)",
+  "credit": "데이터 제공: 한국관광공사 한국관광콘텐츠랩",
+  "places": [
+    {
+      "id": "footbath",
+      "zone": "A",
+      "zoneName": "온천과 장터",
+      "name": "유성 족욕체험장",
+      "contentType": "관광지",
+      "address": "대전광역시 유성구 봉명동",
+      "zipcode": "34187",
+      "lat": 36.3549974012,
+      "lng": 127.3454142471,
+      "overview": "대전 유성온천지구 내 유성족욕체험장은 섭씨 40도의 천연 온천수가 공급되는 노천족욕장이다. 2만 778㎡ 규모의 4개 족욕장에서 동시에 200명이 족욕을 즐길 수 있다. 이 족욕체험장은 대전을 방문한 관광객들이 가벼운 마음으로 온천을 즐길 수 있도록 마련해 무료로 이용할 수 있다. 대전 유성구에서 수질 관리와 청결에 신경을 써 마음 놓고 족욕을 즐길 수 있는 곳이다. 족욕을 하기 전에 발을 깨끗이 씻는 장소가 따로 마련되어 있다. 발과 다리를 뜨거운 물에 담그는 족욕은 혈액순환에 좋고, 스트레스와 통증을 완화하는 효과가 있어 남녀노소 누구에게나 좋은 목욕법이다. 이곳은 특히 어르신들이 즐겨 찾는다.",
+      "info": {
+        "문의 및 안내": "042-611-2445",
+        "쉬는날": "연중무휴",
+        "이용시간": "07:00~22:00",
+        "유모차 대여 여부": "없음",
+        "상세정보": "입장료:무료"
+      },
+      "photos": [
+        {
+          "file": "photos/footbath/footbath_01_type3.jpg",
+          "original": "유성_족욕체험장_1_공공3유형.jpg",
+          "license": "공공누리 제3유형",
+          "pixelArtAllowed": false,
+          "useAsIs": true,
+          "recommended": true
+        },
+        {
+          "file": "photos/footbath/footbath_06_type3.jpg",
+          "original": "유성_족욕체험장_6_공공3유형.jpg",
+          "license": "공공누리 제3유형",
+          "pixelArtAllowed": false,
+          "useAsIs": true,
+          "recommended": true
+        }
+      ],
+      "photoSummary": {
+        "total": 9,
+        "pixelArtAllowed": 0,
+        "bundled": 2
+      },
+      "credit": "데이터 제공: 한국관광공사 한국관광콘텐츠랩",
+      "photoNote": "콘텐츠랩에 이 장소의 고품질사진은 없습니다(2026-11-06 확인). 관광정보 이미지는 모두 제3유형이라 원본 그대로만 사용하세요."
+    },
+    {
+      "id": "spa",
+      "zone": "A",
+      "zoneName": "온천과 장터",
+      "name": "유성온천지구",
+      "contentType": "관광지",
+      "address": "대전광역시 유성구 봉명동 574일대",
+      "zipcode": "34186",
+      "lat": 36.3552973541,
+      "lng": 127.3447948538,
+      "overview": "유성온천지구는 대전 원도심에서 서쪽으로 약 11km가량 떨어진 유성구의 중심을 이루고 있는 대단위 온천관광타운이다. 우리나라 116개의 온천지구 가운데 가장 오래된 역사와 부존량, 사용량에서 전국 최대 규모를 자랑하고 있다. 유성의 온천수는 50~400m로 구성된 화강암 단층 파쇄대에서 생성된 물로 지하 200m 이하에서 분출되는 27~56℃ 정도의 고온 열천이다. 온천수에는 약 60여 종의 각종 성분이 함유되어 있으며, 산성도(pH) 7.5∼8.5의 약알카리성 단순천이다. 특히 실리카 (SiO2) 성분의 함량이 40mg/L이상이어서 실리카온천으로 명성을 떨치고 있다.",
+      "info": {
+        "문의 및 안내": "042-611-2128",
+        "쉬는날": "연중무휴",
+        "체험안내": "족욕체험",
+        "이용시간": "07:00~22:00",
+        "주차시설": "불가능",
+        "유모차 대여 여부": "없음",
+        "상세정보": "입장료:무료 / 화장실:있음"
+      },
+      "photos": [
+        {
+          "file": "photos/spa/spa_01_type3.jpg",
+          "original": "유성온천지구_1_공공3유형.JPG",
+          "license": "공공누리 제3유형",
+          "pixelArtAllowed": false,
+          "useAsIs": true,
+          "recommended": true
+        },
+        {
+          "file": "photos/spa/spa_07_type3.jpg",
+          "original": "유성온천지구_7_공공3유형.JPG",
+          "license": "공공누리 제3유형",
+          "pixelArtAllowed": false,
+          "useAsIs": true,
+          "recommended": true
+        },
+        {
+          "file": "photos/spa/spa_11_type3.jpg",
+          "original": "유성온천지구_11_공공3유형.JPG",
+          "license": "공공누리 제3유형",
+          "pixelArtAllowed": false,
+          "useAsIs": true,
+          "recommended": true
+        }
+      ],
+      "photoSummary": {
+        "total": 18,
+        "pixelArtAllowed": 0,
+        "bundled": 3
+      },
+      "credit": "데이터 제공: 한국관광공사 한국관광콘텐츠랩"
+    },
+    {
+      "id": "park",
+      "zone": "A",
+      "zoneName": "온천과 장터",
+      "name": "유림공원",
+      "contentType": "관광지",
+      "address": "대전광역시 유성구 어은로 27",
+      "zipcode": "34139",
+      "lat": 36.3606830486,
+      "lng": 127.357687916,
+      "overview": "유림공원은 대전 유성구청 근처 갑천변에 위치한 공원이다. 한밭대로나 온천동로를 통해 접근할 수 있으며, 고속도로는 호남고속도로 지선 유성 IC가 가깝다. 대중교통은 대전도시철도 1호선 월평역을 이용할 수 있다. 인근에는 유성온천, 궁동로데오거리, 충남대학교 대덕캠퍼스 등이 있다. 봄의 벚꽃과 가을의 국화꽃 등이 유명하며 가을에 국화축제가 열린다. 산책과 나들이, 소풍을 즐길 수 있는 곳으로, 한반도를 닮은 작은 정원인 반도지에서는 예쁜 물레방아와 연꽃, 시원한 그늘이 있는 정자도 볼 수 있다. 야외무대도 설치되어 있어 각종 공연, 행사가 열리기도 한다. ‘유림’은 계룡건설 창업주 이인구의 호로서, 계룡건설이 이곳을 공원화한 것을 기념하여 붙은 이름이다.",
+      "info": {
+        "문의 및 안내": "042-824-4581",
+        "쉬는날": "연중무휴",
+        "체험가능연령": "전연령",
+        "이용시간": "상시 개방",
+        "주차시설": "가능",
+        "유모차 대여 여부": "없음",
+        "상세정보": "입장료:무료 / 화장실:있음"
+      },
+      "photos": [
+        {
+          "file": "photos/park/park_01_type3.jpg",
+          "original": "유림공원_1_공공3유형.jpg",
+          "license": "공공누리 제3유형",
+          "pixelArtAllowed": false,
+          "useAsIs": true,
+          "recommended": true
+        },
+        {
+          "file": "photos/park/park_02_type3.jpg",
+          "original": "유림공원_2_공공3유형.jpg",
+          "license": "공공누리 제3유형",
+          "pixelArtAllowed": false,
+          "useAsIs": true,
+          "recommended": true
+        },
+        {
+          "file": "photos/park/park_03_type3.jpg",
+          "original": "유림공원_3_공공3유형.jpg",
+          "license": "공공누리 제3유형",
+          "pixelArtAllowed": false,
+          "useAsIs": true,
+          "recommended": true
+        }
+      ],
+      "photoSummary": {
+        "total": 9,
+        "pixelArtAllowed": 0,
+        "bundled": 3
+      },
+      "credit": "데이터 제공: 한국관광공사 한국관광콘텐츠랩"
+    },
+    {
+      "id": "market",
+      "zone": "A",
+      "zoneName": "온천과 장터",
+      "name": "유성장",
+      "contentType": "쇼핑",
+      "address": "대전광역시 유성구 유성대로730번길 24 (장대동)",
+      "zipcode": "34172",
+      "lat": 36.3577708251,
+      "lng": 127.333947033,
+      "overview": "유성장은 대전광역시 유성구 장대동에서 5일마다 열리는 정기 재래시장이다. 1916년 10월 15일 최초 개장된 이래 장대동 191번지 장옥을 중심으로 매월 4일과 9일, 14일, 19일, 24일, 29일에 성시를 이루는 전통 풍물장으로서, 지금은 대전뿐만 아니라 인근의 공주, 연기, 논산, 금산, 옥천 등 인근 시, 군에서 생산되는 농산물과 여러 고객들이 만나는 직거래 장터로 각광받고 있다. 약 1,980㎢의 부지에 점포 40여 개가 있고, 그 외에도 공터와 골목에까지 장이 들어선다. 유성장에서는 장대동사무소 뒤편의 장터 입구에서 가축류가 거래되고, 그 안쪽으로 어류·채소류·의류·식기류 순으로 좌판이 벌어진다. 유성의 특산물로는 학하 고구마, 세동 상추 등이 있다. 특히 유성의 배는 전국에서도 맛이 좋기로 유명하다.",
+      "info": {
+        "문의 및 안내": "대전종합관광안내센터 042-861-1330",
+        "판매품목": "가축류 / 어류 / 채소류 / 의류 / 식기류 등",
+        "장서는 날": "4일 / 9일 / 14일 / 19일 / 24일 / 29일",
+        "개장일": "1916-10-28",
+        "영업시간": "점포 별로 상이함",
+        "쉬는날": "점포 별로 상이함",
+        "주차시설": "가능",
+        "유모차 대여 여부": "없음",
+        "화장실": "있음"
+      },
+      "marketDays": [
+        4,
+        9,
+        14,
+        19,
+        24,
+        29
+      ],
+      "photos": [
+        {
+          "file": "photos/market/market_01_type3.jpg",
+          "original": "유성장_1_공공3유형.JPG",
+          "license": "공공누리 제3유형",
+          "pixelArtAllowed": false,
+          "useAsIs": true,
+          "recommended": true
+        },
+        {
+          "file": "photos/market/market_08_type3.jpg",
+          "original": "유성장_8_공공3유형.JPG",
+          "license": "공공누리 제3유형",
+          "pixelArtAllowed": false,
+          "useAsIs": true,
+          "recommended": true
+        },
+        {
+          "file": "photos/market/market_12_type3.jpg",
+          "original": "유성장_12_공공3유형.JPG",
+          "license": "공공누리 제3유형",
+          "pixelArtAllowed": false,
+          "useAsIs": true,
+          "recommended": true
+        }
+      ],
+      "photoSummary": {
+        "total": 18,
+        "pixelArtAllowed": 0,
+        "bundled": 3
+      },
+      "credit": "데이터 제공: 한국관광공사 한국관광콘텐츠랩"
+    },
+    {
+      "id": "geo",
+      "zone": "B",
+      "zoneName": "과학로 박물관길",
+      "name": "지질박물관",
+      "contentType": "문화시설",
+      "address": "대전광역시 유성구 과학로 124",
+      "zipcode": "34132",
+      "lat": 36.379880792,
+      "lng": 127.3605065653,
+      "overview": "국내 최초의 종합적인 지질전문박물관으로 2001년에 개관하였다. 1918년 ‘지질조사소’로 출발한 한국지질자원 연구원은 현재에 이르기까지 지속적인 연구 사업의 성과로 각종 지질 표본들을 축적해 왔다. 그러던 중 대전 엑스포를 계기로 연구원 강당동 내에 소규모의 ‘지질표본관’을 설립하여 일반인들에게 공개하게 되었는데, 그 후 늘어나는 관람객의 요구와 체계적이고 종합적인 전문 박물관 건립의 필요성이 대두됨에 따라 개관하게 되었다. 지질박물관은 광물, 암석, 화석과 같은 지질 표본의 전시, 영상물의 상영, 강연회 또는 체험학습의 장을 마련함으로써 지질과학의 대중화에 보탬이 되기 위해 노력하고 있으며 지질시료동의 운영으로 전문가를 위한 표본 및 시추코어의 보관 시스템을 구축하고 있다. 지질박물관 외관은 스테고사우루스 골판 모양에서 착안하여 디자인되었다. 이곳에는 암석과 화석, 광물 등 5,000여 점의 소장품이 있으며 광물 2,232점, 암석 291점, 화석 1,231점으로 총 3,745점의 지질 표본을 보유하고 있다.",
+      "info": {
+        "이용시간": "10:00~17:00 (입장 마감 16:30)",
+        "쉬는날": "매주 월요일 / 1월 1일 / 설날·추석 / 근로자의 날 / 창립기념일 (5월 10일)",
+        "이용요금": "무료"
+      },
+      "photos": [
+        {
+          "file": "photos/geo/geo_03_type3.jpg",
+          "original": "지질박물관_3_공공3유형.jpg",
+          "license": "공공누리 제3유형",
+          "pixelArtAllowed": false,
+          "useAsIs": true,
+          "recommended": true,
+          "kind": "관광정보 이미지"
+        },
+        {
+          "file": "photos/geo/geo_17_type3.jpg",
+          "original": "지질박물관_17_공공3유형.jpg",
+          "license": "공공누리 제3유형",
+          "pixelArtAllowed": false,
+          "useAsIs": true,
+          "recommended": true,
+          "kind": "관광정보 이미지"
+        },
+        {
+          "file": "photos/geo/geo_25_type3.jpg",
+          "original": "지질박물관_25_공공3유형.jpg",
+          "license": "공공누리 제3유형",
+          "pixelArtAllowed": false,
+          "useAsIs": true,
+          "recommended": true,
+          "kind": "관광정보 이미지"
+        },
+        {
+          "file": "photos/geo/geo_hq_03_type1.jpg",
+          "original": "지질박물관_3_공공1유형_한국관광공사 전형준_6bfuEa.jpg",
+          "license": "공공누리 제1유형",
+          "pixelArtAllowed": true,
+          "useAsIs": true,
+          "recommended": false,
+          "recommendedForPixelArt": true,
+          "photographer": "한국관광공사 전형준",
+          "shotOn": "2009-05",
+          "kind": "고품질사진"
+        },
+        {
+          "file": "photos/geo/geo_hq_04_type1.jpg",
+          "original": "지질박물관_4_공공1유형_한국관광공사 전형준_6bfuHa.jpg",
+          "license": "공공누리 제1유형",
+          "pixelArtAllowed": true,
+          "useAsIs": true,
+          "recommended": false,
+          "recommendedForPixelArt": true,
+          "photographer": "한국관광공사 전형준",
+          "shotOn": "2009-05",
+          "kind": "고품질사진"
+        },
+        {
+          "file": "photos/geo/geo_hq_06_type1.jpg",
+          "original": "지질박물관_6_공공1유형_한국관광공사 전형준_6bfuNa.jpg",
+          "license": "공공누리 제1유형",
+          "pixelArtAllowed": true,
+          "useAsIs": true,
+          "recommended": false,
+          "recommendedForPixelArt": true,
+          "photographer": "한국관광공사 전형준",
+          "shotOn": "2009-05",
+          "kind": "고품질사진"
+        }
+      ],
+      "photoSummary": {
+        "total": 49,
+        "pixelArtAllowed": 20,
+        "bundled": 6
+      },
+      "credit": "데이터 제공: 한국관광공사 한국관광콘텐츠랩",
+      "photoNote": "고품질사진(geo_hq_*)은 2009년 촬영본으로 visitkorea 워터마크가 있습니다. 팝업에는 관광정보 이미지(원본 그대로), 픽셀아트에는 고품질사진을 쓰세요."
+    },
+    {
+      "id": "money",
+      "zone": "B",
+      "zoneName": "과학로 박물관길",
+      "name": "화폐박물관",
+      "contentType": "문화시설",
+      "address": "대전광역시 유성구 과학로 80-67(가정동)",
+      "zipcode": "34132",
+      "lat": 36.3774368209,
+      "lng": 127.3705390043,
+      "overview": "화폐박물관은 국내외의 각종 화폐 문화 사료를 체계적으로 전시하고, 이에 대한 연구 및 교육 기능을 갖춘 한국조폐공사 부설 박물관이다. 1988년 6월 22일에 개관한 우리나라 최초의 화폐 전문 박물관으로, 한국조폐공사가 공익적 목적의 비영리 문화사업으로 운영하고 있다. 관람객의 이해를 돕기 위해 4개의 상설전시실을 갖추고 있으며, 12만여 점의 소장 화폐 자료 중 약 4,000여 점이 시대별, 종류별로 엄선되어 전시되어 있다. 또한, 화폐의 제작 과정과 역사적 의미를 알 수 있는 체험 공간도 마련되어 있어 교육적 효과가 크다.",
+      "info": {
+        "규모": "대지 13,872㎡건물 2,326㎡ (2층 건물)",
+        "이용시간": "10:00~17:00",
+        "쉬는날": "매주 월요일 / 1월 1일 / 설날·추석 연휴 / 정부지정 임시공휴일",
+        "이용요금": "무료",
+        "관람소요시간": "약 1시간",
+        "주차요금": "무료",
+        "유모차 대여 여부": "없음",
+        "상세정보": "주차요금:무료"
+      },
+      "photos": [
+        {
+          "file": "photos/money/money_01_type1.jpg",
+          "original": "화폐박물관_1_공공1유형.jpg",
+          "license": "공공누리 제1유형",
+          "pixelArtAllowed": true,
+          "useAsIs": true,
+          "recommended": true
+        },
+        {
+          "file": "photos/money/money_04_type1.jpg",
+          "original": "화폐박물관_4_공공1유형.jpg",
+          "license": "공공누리 제1유형",
+          "pixelArtAllowed": true,
+          "useAsIs": true,
+          "recommended": true
+        },
+        {
+          "file": "photos/money/money_18_type1.jpg",
+          "original": "화폐박물관_18_공공1유형.jpg",
+          "license": "공공누리 제1유형",
+          "pixelArtAllowed": true,
+          "useAsIs": true,
+          "recommended": true
+        }
+      ],
+      "photoSummary": {
+        "total": 20,
+        "pixelArtAllowed": 20,
+        "bundled": 3
+      },
+      "credit": "데이터 제공: 한국관광공사 한국관광콘텐츠랩"
+    },
+    {
+      "id": "science",
+      "zone": "B",
+      "zoneName": "과학로 박물관길",
+      "name": "국립중앙과학관",
+      "contentType": "문화시설",
+      "address": "대전광역시 유성구 대덕대로 481 (구성동)",
+      "zipcode": "34143",
+      "lat": 36.37595413197782,
+      "lng": 127.3790545587592,
+      "overview": "국립중앙과학관은 ‘자연과 인간과 과학의 조화’를 주제로 건립된 과학기술 문화의 전당으로, 국민 생활의 과학화를 촉진하고 청소년들의 과학기술에 대한 흥미 유발과 창의력 배양에 이바지하기 위해 설립되었다. 이곳은 생활 속 과학을 쉽고 재미있게 접할 수 있는 공간이자, 과거와 현재, 미래의 과학지식을 축적·계승·활용할 수 있는 종합 과학문화 공간이다. 또한, 창의성을 함양하고 합리적인 사회 조성의 기반이 되는 역할도 수행하고 있다. 전시와 교육, 다양한 과학행사를 통해 국민들에게 과학기술문화 체험 기회를 제공하며, 과학기술문화유산의 발굴과 보존, 전시 및 교육 연구 활동, 전국 과학관과의 교류·협력 등도 활발히 이루어지고 있다.",
+      "info": {
+        "이용시간": "09:30~17:30",
+        "쉬는날": "매주 월요일 (단, 공휴일이 월요일인 경우 다음날 휴관) / 1월 1일 / 설·추석 당일",
+        "이용요금": "무료 / ※ 단, 전시관 별 예약 및 유료입장",
+        "주차요금": "최초 5시간 4,000원 / 이후 30분 당 500원 추가 요금 발생",
+        "상세정보": "주차요금:최초 5시간 4,000원 / 이후 30분 당 500원 추가 요금 발생"
+      },
+      "photos": [
+        {
+          "file": "photos/science/science_03_type1.jpg",
+          "original": "국립중앙과학관_3_공공1유형.jpg",
+          "license": "공공누리 제1유형",
+          "pixelArtAllowed": true,
+          "useAsIs": true,
+          "recommended": true
+        },
+        {
+          "file": "photos/science/science_04_type1.jpg",
+          "original": "국립중앙과학관_4_공공1유형.jpg",
+          "license": "공공누리 제1유형",
+          "pixelArtAllowed": true,
+          "useAsIs": true,
+          "recommended": true
+        },
+        {
+          "file": "photos/science/science_08_type1.jpg",
+          "original": "국립중앙과학관_8_공공1유형.jpg",
+          "license": "공공누리 제1유형",
+          "pixelArtAllowed": true,
+          "useAsIs": true,
+          "recommended": true
+        }
+      ],
+      "photoSummary": {
+        "total": 9,
+        "pixelArtAllowed": 9,
+        "bundled": 3
+      },
+      "credit": "데이터 제공: 한국관광공사 한국관광콘텐츠랩"
+    },
+    {
+      "id": "bridge",
+      "zone": "B",
+      "zoneName": "과학로 박물관길",
+      "name": "엑스포다리",
+      "contentType": "관광지",
+      "address": "대전광역시 유성구 도룡동",
+      "zipcode": "34126",
+      "lat": 36.3726988141,
+      "lng": 127.3879985726,
+      "overview": "엑스포다리는 한빛탑으로 유명한 엑스포과학공원과 대전의 유명 관광지 중 하나인 한밭수목원을 잇는 다리이다. 낮에는 나들이객들이 엑스포다리 주변에서 한가롭게 휴식을 즐긴다. 주변 자전거 대여소에서 자전거를 빌려 타는 사람들도 많다. 엑스포다리는 야경 명소로도 이름이 높은데 계절에 상관없이 일몰 시부터 23시까지 경관 조명이 켜진다. 게다가 여름철 주말이면 화려한 조명과 어우러진 음악분수가 물을 뿜는다. 관광객뿐 아니라 사진작가들이 엑스포다리를 선호하는 이유다.",
+      "info": {
+        "문의 및 안내": "042-472-0266",
+        "쉬는날": "연중무휴",
+        "이용시간": "상시 개방야경 - 매주 금,토,일 일몰 ~ 23:00까지※ 자세한 사항은 전화문의 요망",
+        "주차시설": "가능",
+        "상세정보": "입장료:무료"
+      },
+      "photos": [
+        {
+          "file": "photos/bridge/bridge_01_type1.jpg",
+          "original": "엑스포다리_1_공공1유형.jpg",
+          "license": "공공누리 제1유형",
+          "pixelArtAllowed": true,
+          "useAsIs": true,
+          "recommended": true
+        },
+        {
+          "file": "photos/bridge/bridge_02_type1.jpg",
+          "original": "엑스포다리_2_공공1유형.jpg",
+          "license": "공공누리 제1유형",
+          "pixelArtAllowed": true,
+          "useAsIs": true,
+          "recommended": true
+        },
+        {
+          "file": "photos/bridge/bridge_04_type1.jpg",
+          "original": "엑스포다리_4_공공1유형.jpg",
+          "license": "공공누리 제1유형",
+          "pixelArtAllowed": true,
+          "useAsIs": true,
+          "recommended": true
+        }
+      ],
+      "photoSummary": {
+        "total": 7,
+        "pixelArtAllowed": 7,
+        "bundled": 3
+      },
+      "credit": "데이터 제공: 한국관광공사 한국관광콘텐츠랩"
+    },
+    {
+      "id": "valley",
+      "zone": "C",
+      "zoneName": "수통골 숲길",
+      "name": "계룡산 수통골",
+      "contentType": "레포츠",
+      "address": "대전광역시 유성구 수통골로 47-3",
+      "zipcode": "34154",
+      "lat": 36.3453003296,
+      "lng": 127.2885782901,
+      "overview": "도심과 가까우며 사람과 물이 통하는 아름다운 계곡과 수놓은 비단처럼 아름다운 산이 펼쳐지는 계룡산국립공원 수통골지구의 대표 탐방코스. 시화 밸리의 낭만에 수통폭포와 계곡이 만들어내는 청량감을 느끼며 수놓은 비단같이 아름다운 금수봉에 이르는 코스로 대도시에서 가깝고 등산로가 가파르지 않아 가벼운 등산으로 부담 없이 많은 탐방객들이 연중 찾고 있다.",
+      "info": {
+        "쉬는날": "연중무휴",
+        "이용시간": "상시 개방"
+      },
+      "photos": [
+        {
+          "file": "photos/valley/valley_01_type1.jpg",
+          "original": "계룡산_수통골_1_공공1유형.jpg",
+          "license": "공공누리 제1유형",
+          "pixelArtAllowed": true,
+          "useAsIs": true,
+          "recommended": true
+        },
+        {
+          "file": "photos/valley/valley_05_type1.jpg",
+          "original": "계룡산_수통골_5_공공1유형.jpg",
+          "license": "공공누리 제1유형",
+          "pixelArtAllowed": true,
+          "useAsIs": true,
+          "recommended": true
+        },
+        {
+          "file": "photos/valley/valley_07_type1.jpg",
+          "original": "계룡산_수통골_7_공공1유형.jpg",
+          "license": "공공누리 제1유형",
+          "pixelArtAllowed": true,
+          "useAsIs": true,
+          "recommended": true
+        }
+      ],
+      "photoSummary": {
+        "total": 7,
+        "pixelArtAllowed": 7,
+        "bundled": 3
+      },
+      "credit": "데이터 제공: 한국관광공사 한국관광콘텐츠랩"
+    },
+    {
+      "id": "kam",
+      "zone": "C",
+      "zoneName": "수통골 숲길",
+      "name": "수통골 감나무집 본점",
+      "contentType": "음식점",
+      "address": "대전광역시 유성구 수통골로 69 (덕명동)",
+      "zipcode": "34154",
+      "lat": 36.346222722935366,
+      "lng": 127.29193755747312,
+      "overview": "수통골 감나무집 본점은 오리 요리를 전문으로 하는 음식점이다. 대표 메뉴는 오리 수육이며, 오리 석갈비와 오리 누룽지백숙 등도 맛볼 수 있다. 전용 주차장이 마련되어 있어 주차에 불편함이 없다. 또한 음식점이 자리 잡은 수통골은 대전 도심에서 멀지 않은 곳에 자리 잡고 있는 계곡으로, 여름철엔 오리 요리를 맛보며 계곡에서 물놀이를 즐길 수도 있다.",
+      "info": {
+        "문의 및 안내": "042-823-0223",
+        "주차 시설": "가능",
+        "영업시간": "- 11:20~21:00- 준비시간 15:00~17:00- 마지막 주문 14:00, 20:00",
+        "쉬는날": "연중무휴",
+        "대표메뉴": "오리수육",
+        "취급메뉴": "막국수 / 오리석갈비 / 오리누룽지백숙 등",
+        "인허가번호": "20130240279"
+      },
+      "menu": {
+        "main": [
+          "오리수육"
+        ],
+        "more": [
+          "막국수",
+          "오리석갈비",
+          "오리누룽지백숙"
+        ]
+      },
+      "photos": [
+        {
+          "file": "photos/kam/kam_01_type3.jpg",
+          "original": "수통골_감나무집_본점_1_공공3유형.jpg",
+          "license": "공공누리 제3유형",
+          "pixelArtAllowed": false,
+          "useAsIs": true,
+          "recommended": true
+        },
+        {
+          "file": "photos/kam/kam_02_type3.jpg",
+          "original": "수통골_감나무집_본점_2_공공3유형.jpg",
+          "license": "공공누리 제3유형",
+          "pixelArtAllowed": false,
+          "useAsIs": true,
+          "recommended": true
+        },
+        {
+          "file": "photos/kam/kam_03_type3.jpg",
+          "original": "수통골_감나무집_본점_3_공공3유형.jpg",
+          "license": "공공누리 제3유형",
+          "pixelArtAllowed": false,
+          "useAsIs": true,
+          "recommended": true
+        }
+      ],
+      "photoSummary": {
+        "total": 5,
+        "pixelArtAllowed": 0,
+        "bundled": 3
+      },
+      "credit": "데이터 제공: 한국관광공사 한국관광콘텐츠랩"
+    },
+    {
+      "id": "duck",
+      "zone": "C",
+      "zoneName": "수통골 숲길",
+      "name": "수통골장수오리",
+      "contentType": "음식점",
+      "address": "대전광역시 유성구 수통골로 89 (덕명동)",
+      "zipcode": "34154",
+      "lat": 36.3461402645,
+      "lng": 127.2941748254,
+      "overview": "수통골장수오리는 대전광역시 유성구 덕명동에 있다. 깔끔한 느낌의 외관과 차분한 분위기를 연출하는 인테리어로 이루어졌다. 내부에는 단체석이 마련되어 있어 각종 모임을 하기 좋다. 대표 메뉴는 오리 훈제, 오리 로스, 오리 주물럭을 함께 맛볼 수 있는 오리 코스요리다. 이 밖에 흑미 오리 누룽지 백숙, 오리 누룽지 백숙, 유황오리 훈제 등 다양한 오리 요리가 준비되어 있다. 유성IC에서 가깝고, 주변에 국립대전 숲체원과 계룡산국립공원이 있다.",
+      "info": {
+        "문의 및 안내": "042-822-0300",
+        "영업시간": "- 11:00~21:20- 준비시간 15:00~17:00- 마지막 주문 20:20※ 주말에는 준비 시간 없이 운영",
+        "쉬는날": "연중무휴",
+        "대표메뉴": "오리코스요리",
+        "취급메뉴": "흑미오리누룽지백 / 야채오리불고기 / 한방토종닭백숙 등",
+        "인허가번호": "20170231632"
+      },
+      "menu": {
+        "main": [
+          "오리코스요리"
+        ],
+        "more": [
+          "흑미오리누룽지백",
+          "야채오리불고기",
+          "한방토종닭백숙"
+        ]
+      },
+      "photos": [
+        {
+          "file": "photos/duck/duck_01_type3.jpg",
+          "original": "수통골장수오리_1_공공3유형.jpg",
+          "license": "공공누리 제3유형",
+          "pixelArtAllowed": false,
+          "useAsIs": true,
+          "recommended": true
+        },
+        {
+          "file": "photos/duck/duck_02_type3.jpg",
+          "original": "수통골장수오리_2_공공3유형.jpg",
+          "license": "공공누리 제3유형",
+          "pixelArtAllowed": false,
+          "useAsIs": true,
+          "recommended": true
+        },
+        {
+          "file": "photos/duck/duck_03_type3.jpg",
+          "original": "수통골장수오리_3_공공3유형.jpg",
+          "license": "공공누리 제3유형",
+          "pixelArtAllowed": false,
+          "useAsIs": true,
+          "recommended": true
+        }
+      ],
+      "photoSummary": {
+        "total": 5,
+        "pixelArtAllowed": 0,
+        "bundled": 3
+      },
+      "credit": "데이터 제공: 한국관광공사 한국관광콘텐츠랩"
+    },
+    {
+      "id": "trail",
+      "zone": "C",
+      "zoneName": "수통골 숲길",
+      "name": "국립대전현충원 보훈둘레길",
+      "contentType": "관광지",
+      "address": "대전광역시 유성구 현충원로 251",
+      "zipcode": "34151",
+      "lat": 36.3622460736,
+      "lng": 127.2985587765,
+      "overview": "국립대전현충원 내 보훈둘레길은 보훈가족과 방문객들이 편안하게 걸으며 나라사랑의 의미를 되새길 수 있도록 조성된 둘레길이다. 현충원 묘역을 따라 조성된 이 길은 빨강, 주황, 노랑, 초록, 파랑, 쪽빛, 보라 총 7개의 코스로 구성되어 있어 ‘무지개길’이라는 이름으로도 불린다. 숲 속 오솔길 형태로 조성돼 자연을 그대로 느낄 수 있으며, 노약자와 어린이도 부담 없이 걸을 수 있을 만큼 완만하다. 나무 그늘 덕분에 여름철에도 쾌적하게 이용할 수 있다. 길을 따라 걷다 보면 호국철도기념관, 소나무숲, 대나무숲, 전망대 등 다양한 볼거리를 만날 수 있다.",
+      "info": {
+        "문의 및 안내": "042-718-7114",
+        "쉬는날": "연중무휴",
+        "이용시간": "09:00~18:00",
+        "주차시설": "가능",
+        "상세정보": "화장실:있음 / 입 장 료:무료"
+      },
+      "photos": [
+        {
+          "file": "photos/trail/trail_01_type3.jpg",
+          "original": "국립대전현충원_보훈둘레길_1_공공3유형.jpg",
+          "license": "공공누리 제3유형",
+          "pixelArtAllowed": false,
+          "useAsIs": true,
+          "recommended": true
+        },
+        {
+          "file": "photos/trail/trail_03_type3.jpg",
+          "original": "국립대전현충원_보훈둘레길_3_공공3유형.jpg",
+          "license": "공공누리 제3유형",
+          "pixelArtAllowed": false,
+          "useAsIs": true,
+          "recommended": true
+        },
+        {
+          "file": "photos/trail/trail_06_type3.jpg",
+          "original": "국립대전현충원_보훈둘레길_6_공공3유형.JPG",
+          "license": "공공누리 제3유형",
+          "pixelArtAllowed": false,
+          "useAsIs": true,
+          "recommended": true
+        }
+      ],
+      "photoSummary": {
+        "total": 7,
+        "pixelArtAllowed": 0,
+        "bundled": 3
+      },
+      "credit": "데이터 제공: 한국관광공사 한국관광콘텐츠랩"
+    }
+  ]
+}
