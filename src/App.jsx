@@ -1,8 +1,8 @@
-import { useCallback, useEffect, useRef, useState } from 'react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
+import { PlaceSheet, ResidentSheet, BusSheet, StampCompleteSheet } from './ui/Sheets.jsx';
 import { createGame } from './game/createGame.js';
 import { emit, on } from './bus.js';
 import { ZONES } from './data/zones.js';
-import { PlaceSheet, ResidentSheet, BusSheet } from './ui/Sheets.jsx';
 
 const STORE_KEY = 'meta-yuseong-stamps';
 const loadStamps = () => { try { return new Set(JSON.parse(localStorage.getItem(STORE_KEY) || '[]')); } catch { return new Set(); } };
@@ -15,9 +15,19 @@ export default function App() {
   const [sheet, setSheet] = useState(null);       // { kind: 'npc' | 'resident' | 'bus', data }
   const [toast, setToast] = useState(null);
   const [stamps, setStamps] = useState(loadStamps);
+  const [showCompletePopup, setShowCompletePopup] = useState(false);
+  const [hasShownCongrats, setHasShownCongrats] = useState(false);
 
   const open = useCallback((s) => { setSheet(s); emit('ui:open'); }, []);
   const close = useCallback(() => { setSheet(null); emit('ui:close'); }, []);
+
+  // 스탬프가 12개가 되는 순간 축하 팝업 표시 (Set 자료구조는 .size 로 확인)
+  useEffect(() => {
+    if (stamps.size >= 12 && !hasShownCongrats) {
+      setShowCompletePopup(true);
+      setHasShownCongrats(true);
+    }
+  }, [stamps.size, hasShownCongrats]);
 
   useEffect(() => {
     const game = createGame(gameRef.current);
@@ -58,6 +68,12 @@ export default function App() {
         {sheet?.kind === 'npc' && <PlaceSheet talk={sheet.data} onClose={close} />}
         {sheet?.kind === 'resident' && <ResidentSheet talk={sheet.data} onClose={close} />}
         {sheet?.kind === 'bus' && <BusSheet from={sheet.data} onPick={pickZone} onClose={close} />}
+        {showCompletePopup && (
+          <StampCompleteSheet
+            stampsCount={stamps.size}
+            onClose={() => setShowCompletePopup(false)}
+          />
+        )}
       </main>
     </div>
   );

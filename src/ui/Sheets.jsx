@@ -194,3 +194,33 @@ export function BusSheet({ from, onPick, onClose }) {
     </Sheet>
   );
 }
+
+// src/ui/Sheets.jsx 하단에 추가
+
+export function StampCompleteSheet({ stampsCount, onClose }) {
+  return (
+    <Sheet label="스탬프 투어 완료 축하" onClose={onClose} small>
+      <header className="speaker">
+        <div className="portrait">
+          <span style={{ fontSize: '28px', lineHeight: 1 }}>🎉</span>
+        </div>
+        <div className="who">
+          <div className="name">유성 탐방 마스터!</div>
+          <div className="role">스탬프 투어 완주 (12/12)</div>
+        </div>
+        <button className="close" onClick={onClose} aria-label="닫기">X</button>
+      </header>
+      <div style={{ padding: '20px 16px', textAlign: 'center', display: 'flex', flexDirection: 'column', gap: '14px', alignItems: 'center' }}>
+        <div style={{ fontSize: '48px', margin: '4px 0' }}>🏆</div>
+        <h2 style={{ margin: 0, fontSize: '20px', color: 'var(--ink)' }}>축하합니다!</h2>
+        <p className="overview" style={{ textAlign: 'center' }}>
+          대전 유성의 주요 명소 12곳을 모두 방문하여<br />
+          <b>스탬프 투어를 완성</b>하셨습니다!
+        </p>
+        <button className="btn" onClick={onClose} style={{ marginTop: '8px', padding: '10px 20px', fontSize: '14px' }}>
+          멋져요! (확인)
+        </button>
+      </div>
+    </Sheet>
+  );
+}
