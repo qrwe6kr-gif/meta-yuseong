@@ -123,21 +123,19 @@
      ]
     },
     {
-     "id": 5,
-     "name": "계룡산 수통골 간판",
-     "type": "building",
-     "x": 200,
-     "y": 96,
-     "width": 0,
-     "height": 0,
-     "visible": true,
-     "point": true,
-     "properties": [
-      { "name": "sprite", "type": "string", "value": "sign-valley" },
-      { "name": "footW", "type": "int", "value": 112 },
-      { "name": "footH", "type": "int", "value": 5 }
-     ]
-    },
+ "id": 5,
+ "name": "계룡산 수통골 간판",
+ "point": true,
+ "properties": [
+  { "name": "sprite", "type": "string", "value": "sign-valley" },
+  { "name": "footW", "type": "int", "value": 60 },
+  { "name": "footH", "type": "int", "value": 5 },
+  { "name": "scale", "type": "float", "value": 0.5 }
+ ],
+ "type": "building",
+ "x": 200,
+ "y": 96
+},
     {
      "id": 6,
      "name": "수통골 감나무집 본점",
@@ -286,7 +284,7 @@
      "id": 15,
      "name": "등산객",
      "type": "resident",
-     "x": 328,
+     "x": 360,
      "y": 96,
      "width": 0,
      "height": 0,
@@ -327,7 +325,7 @@
      "name": "계룡산 수통골",
      "type": "label",
      "x": 200,
-     "y": 36,
+     "y": 24,
      "visible": true,
      "point": true,
      "properties": [{ "name": "text", "type": "string", "value": "계룡산 수통골" }]
