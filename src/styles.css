@@ -262,3 +262,116 @@ button { font: inherit; cursor: pointer; }
   color: var(--ink);
   text-align: center;
 }
+
+/* src/styles.css 하단 추가 */
+
+.pixel-art {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+.complete-body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+}
+
+.complete-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 4px;
+}
+
+.complete-trophy {
+  width: 96px;
+  height: 96px;
+}
+
+.complete-confetti {
+  width: 96px;
+  height: 32px;
+}
+
+.complete-confetti.flip {
+  transform: scaleX(-1);
+}
+
+.complete-title {
+  margin: 0;
+  font-size: 24px;
+  color: var(--ink);
+}
+
+.complete-desc {
+  text-align: center;
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* 12개 스탬프판 (기본 4칸 x 3줄) */
+.complete-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  width: 100%;
+  max-width: 520px;
+  background: var(--milk);
+  padding: 12px;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 2px var(--sand);
+  margin-top: 4px;
+}
+
+.complete-stamp-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  background: var(--cream);
+  padding: 6px 4px;
+  border-radius: 3px;
+  box-shadow: 0 0 0 1.5px var(--ink-soft);
+}
+
+.complete-stamp-item img {
+  width: 24px;
+  height: 24px;
+}
+
+.complete-stamp-name {
+  font-size: 11px;
+  color: var(--ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+.complete-btn {
+  align-self: center;
+  margin-top: 8px;
+  padding: 8px 24px;
+  font-size: 14px;
+}
+
+/* 모바일 (375px 이하) 모바일 화면: 3칸 x 4줄 대응 */
+@media (max-width: 420px) {
+  .complete-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .complete-trophy {
+    width: 72px;
+    height: 72px;
+  }
+  .complete-confetti {
+    width: 48px;
+    height: 16px;
+  }
+}

@@ -46,12 +46,16 @@ export default class WorldScene extends Phaser.Scene {
         case 'tree':
           this.addSolidImage('tree', o.x, o.y, 8, 5);
           break;
-        case 'building':   // a picture with a solid footprint (set footW/footH in Tiled)
-          this.addSolidImage(prop(o, 'sprite'), o.x, o.y, prop(o, 'footW') || 24, prop(o, 'footH') || 8);
+        case 'building': {
+          const scale = prop(o, 'scale') ?? 1;
+          this.addSolidImage(prop(o, 'sprite'), o.x, o.y, prop(o, 'footW') || 24, prop(o, 'footH') || 8, scale);
           break;
-        case 'decor':      // a picture you can walk behind and through (arches, shades, waterwheel)
-          this.add.image(o.x, o.y, prop(o, 'sprite')).setOrigin(0.5, 1).setDepth(o.y);
+        }
+        case 'decor': {
+          const scale = prop(o, 'scale') ?? 1;
+          this.add.image(o.x, o.y, prop(o, 'sprite')).setOrigin(0.5, 1).setScale(scale).setDepth(o.y);
           break;
+        }
         case 'bush':
           this.addSolidImage('bush', o.x, o.y, 12, 6);
           break;
@@ -108,8 +112,8 @@ export default class WorldScene extends Phaser.Scene {
   }
 
   // A picture that stands on the map with a small solid footprint at its base.
-  addSolidImage(key, x, y, w, h) {
-    this.add.image(x, y, key).setOrigin(0.5, 1).setDepth(y);
+  addSolidImage(key, x, y, w, h, scale = 1) {
+    const img = this.add.image(x, y, key).setOrigin(0.5, 1).setScale(scale).setDepth(y);
     const block = this.add.zone(x, y - h / 2, w, h);
     this.obstacles.add(block);
   }

@@ -195,14 +195,14 @@ export function BusSheet({ from, onPick, onClose }) {
   );
 }
 
-// src/ui/Sheets.jsx 하단에 추가
+export function StampCompleteSheet({ onClose }) {
+  const placeList = Object.values(PLACES); // A/B/C 구역 순서 12곳
 
-export function StampCompleteSheet({ stampsCount, onClose }) {
   return (
-    <Sheet label="스탬프 투어 완료 축하" onClose={onClose} small>
+    <Sheet label="스탬프 투어 완주 축하" onClose={onClose}>
       <header className="speaker">
         <div className="portrait">
-          <span style={{ fontSize: '28px', lineHeight: 1 }}>🎉</span>
+          <img src={spriteUrl('player')} alt="플레이어" className="pixel-art" />
         </div>
         <div className="who">
           <div className="name">유성 탐방 마스터!</div>
@@ -210,15 +210,33 @@ export function StampCompleteSheet({ stampsCount, onClose }) {
         </div>
         <button className="close" onClick={onClose} aria-label="닫기">X</button>
       </header>
-      <div style={{ padding: '20px 16px', textAlign: 'center', display: 'flex', flexDirection: 'column', gap: '14px', alignItems: 'center' }}>
-        <div style={{ fontSize: '48px', margin: '4px 0' }}>🏆</div>
-        <h2 style={{ margin: 0, fontSize: '20px', color: 'var(--ink)' }}>축하합니다!</h2>
-        <p className="overview" style={{ textAlign: 'center' }}>
+
+      <div className="complete-body">
+        {/* 트로피 및 축하 이미지 */}
+        <div className="complete-hero">
+          <img src={spriteUrl('confetti')} alt="" className="complete-confetti pixel-art" />
+          <img src={spriteUrl('trophy')} alt="금색 트로피" className="complete-trophy pixel-art" />
+          <img src={spriteUrl('confetti')} alt="" className="complete-confetti pixel-art flip" />
+        </div>
+
+        <h2 className="complete-title">축하합니다!</h2>
+        <p className="overview complete-desc">
           대전 유성의 주요 명소 12곳을 모두 방문하여<br />
           <b>스탬프 투어를 완성</b>하셨습니다!
         </p>
-        <button className="btn" onClick={onClose} style={{ marginTop: '8px', padding: '10px 20px', fontSize: '14px' }}>
-          멋져요! (확인)
+
+        {/* 12곳 스탬프 격자판 */}
+        <div className="complete-grid">
+          {placeList.map((place) => (
+            <div key={place.id} className="complete-stamp-item">
+              <img src={spriteUrl('stamp-on')} alt="완료" className="pixel-art" />
+              <span className="complete-stamp-name">{place.name}</span>
+            </div>
+          ))}
+        </div>
+
+        <button className="btn complete-btn" onClick={onClose}>
+          다시 둘러보기
         </button>
       </div>
     </Sheet>

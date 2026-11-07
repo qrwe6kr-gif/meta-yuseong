@@ -1259,12 +1259,17 @@
       {
        "name": "footW",
        "type": "int",
-       "value": 112
+       "value": 60
       },
       {
        "name": "footH",
        "type": "int",
        "value": 5
+      },
+      {
+       "name": "scale",
+       "type": "float",
+       "value": 0.5
       }
      ]
     },
@@ -1288,12 +1293,17 @@
       {
        "name": "footW",
        "type": "int",
-       "value": 48
+       "value": 60
       },
       {
        "name": "footH",
        "type": "int",
        "value": 5
+      },
+      {
+       "name": "scale",
+       "type": "float",
+       "value": 0.5
       }
      ]
     },
@@ -1317,12 +1327,17 @@
       {
        "name": "footW",
        "type": "int",
-       "value": 48
+       "value": 60
       },
       {
        "name": "footH",
        "type": "int",
        "value": 5
+      },
+      {
+       "name": "scale",
+       "type": "float",
+       "value": 0.5
       }
      ]
     },
@@ -1346,12 +1361,17 @@
       {
        "name": "footW",
        "type": "int",
-       "value": 48
+       "value": 60
       },
       {
        "name": "footH",
        "type": "int",
        "value": 5
+      },
+      {
+       "name": "scale",
+       "type": "float",
+       "value": 0.5
       }
      ]
     },

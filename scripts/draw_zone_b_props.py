@@ -140,22 +140,26 @@ def bridge_arch():
     c.save('bridge-arch', outline=False)
 
 
+# scripts/draw_zone_b_props.py
 def framed_sign(board_name, out_name):
-    """제1유형 사진 픽셀 간판을 동적 크기 나무 액자와 다리에 끼웁니다."""
+    """2배 해상도 사진 간판(160×96)에 2배 두께 액자 및 다리를 적용해 176×140 PNG를 생성합니다."""
     src = ROOT / 'public' / 'assets' / 'boards' / f'{board_name}.png'
     if not src.exists():
         print('skip', out_name, '(no board)')
         return
     board = Image.open(src).convert('RGBA')
-    bw, bh = board.size
-    cw, ch = bw + 8, bh + 22
+    bw, bh = board.size  # 160, 96
+    cw, ch = bw + 16, bh + 44
     c = Canvas(cw, ch)
-    c.rect(0, 0, cw, bh + 6, BARK)
-    c.rect(1, 1, cw - 2, bh + 4, CREAM)
-    c.im.paste(board, (4, 3))
-    for x in (12, cw - 14):
-        c.rect(x, bh + 6, 3, 16, WOOD)
-        c.vline(x, bh + 6, 16, STRAW)
+
+    c.rect(0, 0, cw, bh + 12, BARK)
+    c.rect(4, 4, cw - 8, bh + 4, CREAM)
+    c.im.paste(board, (8, 6))
+    
+    for x in (24, cw - 30):
+        c.rect(x, bh + 12, 6, 32, WOOD)
+        c.vline(x, bh + 12, 32, STRAW)
+        c.vline(x + 1, bh + 12, 32, STRAW)
     c.save(out_name)
 
 
